@@ -15,6 +15,12 @@
     height: 100%;
     margin: auto;
 
+    .scrollButton {
+      @include mobile {
+        display: none;
+      }
+    }
+
     .textContainer {
       width: 50%;
       height: 100%;

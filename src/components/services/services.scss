@@ -15,9 +15,11 @@
     gap: 20px;
 
     @include mobile {
+      margin-top: 20px;
       align-self: center;
       text-align: center;
       flex-direction: column;
+      gap: 2px;
     }
 
     p {
@@ -25,6 +27,10 @@
       font-size: 20px;
       color: gray;
       text-align: right;
+
+      @include mobile {
+        font-size: 17px;
+      }
     }
 
     hr {
@@ -34,6 +40,7 @@
 
       @include mobile {
         width: 300px;
+        margin-bottom: 13px;
       }
     }
   }
